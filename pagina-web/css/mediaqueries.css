@@ -1,0 +1,46 @@
+/*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
+@media (max-width:1200px) {
+
+    #intro,
+    #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+}
+
+
+/*=========================MEDIA QUERIES PANTALLA SM================================*/
+@media (max-width:768px) {
+
+    #intro, #equipo {
+        width: 90% !important;
+        margin: auto;
+    }
+
+    #bg-contactos {
+        top: -120px;
+           }
+
+}
+
+/*=========================MEDIA QUERIES PANTALLA EXTRA-SM================================*/
+
+@media (max-width: 576px) {
+    #servicios-fila-2 {
+        width: 100% !important;
+    }
+
+    #servicios-fila-1 {
+        width: 100% !important;
+    }
+
+    .icono-wrap {
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+        text-align: center;
+    }
+
+    #img-equipo{
+        width: 100%;
+    }
+}
